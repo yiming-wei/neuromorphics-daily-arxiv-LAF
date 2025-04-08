@@ -98,6 +98,7 @@ def get_daily_papers(topic,query="SNN", max_results=2):
     return data,data_web 
 
 def update_json_file(filename, data_all):
+    # 1. 加载旧内容
     if not os.path.exists(filename):
         with open(filename, "w") as f:
             json.dump({}, f)
@@ -105,24 +106,30 @@ def update_json_file(filename, data_all):
     with open(filename, "r") as f:
         content = f.read()
         if not content:
-            m = {}
+            old_data = {}
         else:
-            m = json.loads(content)
+            old_data = json.loads(content)
 
-    json_data = m.copy()
-
-    # update papers in each keyword
+    # 2. 获取当前使用的所有关键词
+    current_keywords = set()
     for data in data_all:
-        for keyword in data.keys():
-            papers = data[keyword]
-            if keyword in json_data.keys():
-                json_data[keyword].update(papers)
+        current_keywords.update(data.keys())
+
+    # 3. 创建新数据，剔除旧数据中不再使用的关键词
+    new_data = {k: v for k, v in old_data.items() if k in current_keywords}
+
+    # 4. 添加/更新新抓取的内容
+    for data in data_all:
+        for keyword, papers in data.items():
+            if keyword in new_data:
+                new_data[keyword].update(papers)
             else:
-                json_data[keyword] = papers
+                new_data[keyword] = papers
 
-
+    # 5. 保存新的 JSON 文件
     with open(filename, "w") as f:
-        json.dump(json_data, f, indent=2)
+        json.dump(new_data, f, indent=2)
+
 
     
 def json_to_md(filename,md_filename,
