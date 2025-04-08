@@ -3,6 +3,8 @@ import requests
 import json
 import arxiv
 import os
+from collections import OrderedDict
+
 
 base_url = "https://arxiv.paperswithcode.com/api/v0/papers/"
 
@@ -97,16 +99,51 @@ def get_daily_papers(topic,query="SNN", max_results=2):
     data_web = {topic:content_to_web}
     return data,data_web 
 
-def update_json_file(filename, data_all):
+# def update_json_file(filename, data_all):
    
-    new_data = {}
+#     new_data = {}
 
+#     for data in data_all:
+#         for keyword, papers in data.items():
+#             new_data[keyword] = papers
+
+#     with open(filename, "w") as f:
+#         json.dump(new_data, f, indent=2)
+
+
+
+def update_json_file(filename, data_all):
+    # 1. 加载旧内容
+    if not os.path.exists(filename):
+        with open(filename, "w") as f:
+            json.dump({}, f)
+
+    with open(filename, "r") as f:
+        content = f.read()
+        old_data = json.loads(content) if content else {}
+
+    # 2. 获取当前关键词顺序（用于排序 + 作为关键词过滤器）
+    keyword_order = []
+    keyword_set = set()
     for data in data_all:
-        for keyword, papers in data.items():
-            new_data[keyword] = papers
+        for keyword in data.keys():
+            if keyword not in keyword_set:
+                keyword_order.append(keyword)
+                keyword_set.add(keyword)
 
+    # 3. 更新数据：只保留当前关键词的内容（剔除旧的）
+    updated_data = OrderedDict()
+    for keyword in keyword_order:
+        # 合并旧数据中该关键词的内容（如果有） + 新数据
+        merged_papers = old_data.get(keyword, {}).copy()
+        for data in data_all:
+            if keyword in data:
+                merged_papers.update(data[keyword])
+        updated_data[keyword] = merged_papers
+
+    # 4. 写入 JSON 文件（按顺序保存）
     with open(filename, "w") as f:
-        json.dump(new_data, f, indent=2)
+        json.dump(updated_data, f, indent=2)
 
 
 # def update_json_file(filename, data_all):
