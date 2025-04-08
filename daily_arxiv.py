@@ -113,7 +113,7 @@ def get_daily_papers(topic,query="SNN", max_results=2):
 
 
 def update_json_file(filename, data_all):
-    # 1. 加载旧内容
+    # 1. add old content
     if not os.path.exists(filename):
         with open(filename, "w") as f:
             json.dump({}, f)
@@ -122,7 +122,7 @@ def update_json_file(filename, data_all):
         content = f.read()
         old_data = json.loads(content) if content else {}
 
-    # 2. 获取当前关键词顺序（用于排序 + 作为关键词过滤器）
+    # 2. Get current keyword order (for sorting + as keyword filter)
     keyword_order = []
     keyword_set = set()
     for data in data_all:
@@ -131,53 +131,20 @@ def update_json_file(filename, data_all):
                 keyword_order.append(keyword)
                 keyword_set.add(keyword)
 
-    # 3. 更新数据：只保留当前关键词的内容（剔除旧的）
+    # 3. Update data: keep only the content of the current keywords (exclude the old ones)
     updated_data = OrderedDict()
     for keyword in keyword_order:
-        # 合并旧数据中该关键词的内容（如果有） + 新数据
+        # Merge the content of this keyword in the old data (if any) + new data
         merged_papers = old_data.get(keyword, {}).copy()
         for data in data_all:
             if keyword in data:
                 merged_papers.update(data[keyword])
         updated_data[keyword] = merged_papers
 
-    # 4. 写入 JSON 文件（按顺序保存）
+    # 4. Write to JSON file (save sequentially)
     with open(filename, "w") as f:
         json.dump(updated_data, f, indent=2)
 
-
-# def update_json_file(filename, data_all):
-#     # 1. 加载旧内容
-#     if not os.path.exists(filename):
-#         with open(filename, "w") as f:
-#             json.dump({}, f)
-
-#     with open(filename, "r") as f:
-#         content = f.read()
-#         if not content:
-#             old_data = {}
-#         else:
-#             old_data = json.loads(content)
-
-#     # 2. 获取当前使用的所有关键词
-#     current_keywords = set()
-#     for data in data_all:
-#         current_keywords.update(data.keys())
-
-#     # 3. 创建新数据，剔除旧数据中不再使用的关键词
-#     new_data = {k: v for k, v in old_data.items() if k in current_keywords}
-
-#     # 4. 添加/更新新抓取的内容
-#     for data in data_all:
-#         for keyword, papers in data.items():
-#             if keyword in new_data:
-#                 new_data[keyword].update(papers)
-#             else:
-#                 new_data[keyword] = papers
-
-#     # 5. 保存新的 JSON 文件
-#     with open(filename, "w") as f:
-#         json.dump(new_data, f, indent=2)
 
 
     
