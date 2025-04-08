@@ -120,7 +120,6 @@ def update_json_file(filename, data_all):
             else:
                 json_data[keyword] = papers
 
-    json_data["_last_update"] = str(datetime.datetime.now())
 
     with open(filename, "w") as f:
         json.dump(json_data, f, indent=2)
