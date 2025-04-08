@@ -6,6 +6,7 @@
     <li><a href=#Neuromorphics---Spintronics>Neuromorphics - Spintronics</a></li>
     <li><a href=#Spintronics---Circuit>Spintronics - Circuit</a></li>
     <li><a href=#Neuromorphics---Online-Learning>Neuromorphics - Online Learning</a></li>
+    <li><a href=#Spintronics---RF>Spintronics - RF</a></li>
     <li><a href=#Neuromorphics---FPGA>Neuromorphics - FPGA</a></li>
   </ol>
 </details>
@@ -276,6 +277,50 @@
 |**2019-01-23**|**Fast and Accurate Sparse Coding of Visual Stimuli with a Simple, Ultra-Low-Energy Spiking Architecture**|Walt Woods et.al.|[1704.05877v3](http://arxiv.org/abs/1704.05877v3)|**[link](https://github.com/wwoods/tlab_sslca)**|
 |**2017-07-30**|**An Online Learning Algorithm for Neuromorphic Hardware Implementation**|Chetan Singh Thakur et.al.|[1505.02495v2](http://arxiv.org/abs/1505.02495v2)|null|
 |**2013-04-26**|**Synthesis of neural networks for spatio-temporal spike pattern recognition and processing**|J. Tapson et.al.|[1304.7118v1](http://arxiv.org/abs/1304.7118v1)|null|
+
+<p align=right>(<a href=#Updated-on-20250408>back to top</a>)</p>
+
+## Spintronics - RF
+
+|Publish Date|Title|Authors|PDF|Code|
+|---|---|---|---|---|
+|**2005-11-22**|**Magnetomechanical Torques in Small Magnetic Cantilevers**|Alexey A. Kovalev et.al.|[cond-mat/0511548v1](http://arxiv.org/abs/cond-mat/0511548v1)|null|
+|**2025-04-05**|**Spin-Torque-Driven Non-uniform Dynamics of an Antivortex Core in Truncated Astroid Shaped Nanomagnets**|Ahmet Koral Aykin et.al.|[2504.04273v1](http://arxiv.org/abs/2504.04273v1)|null|
+|**2025-03-31**|**Symmetry Enhanced Unconventional Spin Current Anisotropy in a Collinear Antiferromagnet**|Pankhuri Gupta et.al.|[2503.20545v2](http://arxiv.org/abs/2503.20545v2)|null|
+|**2025-03-04**|**Polycrystalline Morphology and Anomalous Hall Effect in RF-Sputtered Co2MnGa Films**|Carter E. Wade et.al.|[2503.02821v1](http://arxiv.org/abs/2503.02821v1)|null|
+|**2025-01-27**|**Convolutions with Radio-Frequency Spin-Diodes**|Erwann Plouet et.al.|[2501.16204v1](http://arxiv.org/abs/2501.16204v1)|null|
+|**2024-08-21**|**Substrate-induced spin-torque-like signal in spin-torque ferromagnetic resonance measurement**|Dingsong Jiang et.al.|[2408.11299v1](http://arxiv.org/abs/2408.11299v1)|null|
+|**2024-08-16**|**Contact and bulk rectification effects in ferromagnetic resonance experiments**|Md. Majibul Haque Babu et.al.|[2408.08737v1](http://arxiv.org/abs/2408.08737v1)|null|
+|**2024-06-22**|**Localized Topological States beyond Fano Resonances via Counter-Propagating Wave Mode Conversion in Piezoelectric Microelectromechanical Devices**|Jacopo M. De Ponti et.al.|[2406.15903v1](http://arxiv.org/abs/2406.15903v1)|null|
+|**2024-06-03**|**Optical heterodyne microscopy of operating spin Hall nano-oscillator arrays**|A. Alemán et.al.|[2406.01155v1](http://arxiv.org/abs/2406.01155v1)|null|
+|**2024-04-29**|**Strong Damping-Like Torques in Wafer-Scale MoTe${}_2$ Grown by MOCVD**|Stasiu Thomas Chyczewski et.al.|[2404.19135v1](http://arxiv.org/abs/2404.19135v1)|null|
+|**2024-03-11**|**Magnetic vortex polarity reversal induced gyrotropic motion spectrum splitting in a ferromagnetic disk**|Xiaomin Cui et.al.|[2403.06491v1](http://arxiv.org/abs/2403.06491v1)|null|
+|**2023-01-13**|**Bi layer properties in the Bi-FeNi GMR-type structures probed by spectroscopic ellipsometry**|Natalia Kovaleva et.al.|[2301.05523v1](http://arxiv.org/abs/2301.05523v1)|null|
+|**2022-11-07**|**Multilayer spintronic neural networks with radio-frequency connections**|Andrew Ross et.al.|[2211.03659v1](http://arxiv.org/abs/2211.03659v1)|null|
+|**2023-04-26**|**Strong to ultra-strong coherent coupling measurements in a YIG/cavity system at room temperature**|Guillaume Bourcin et.al.|[2209.14643v2](http://arxiv.org/abs/2209.14643v2)|null|
+|**2021-10-27**|**Size-dependent enhancement of passive microwave rectification in magnetic tunnel junctions with perpendicular magnetic anisotropy**|A. Sidi El Valli et.al.|[2110.14501v1](http://arxiv.org/abs/2110.14501v1)|null|
+|**2021-03-15**|**Nonlinear magnetoelectric effect in atomic vapor**|Sushree S. Sahoo et.al.|[2103.08168v1](http://arxiv.org/abs/2103.08168v1)|null|
+|**2020-12-30**|**RF signal detector and energy harvester based on a spin-torque diode with perpendicular magnetic anisotropy**|P. Yu. Artemchuk et.al.|[2012.15107v1](http://arxiv.org/abs/2012.15107v1)|null|
+|**2020-10-16**|**Investigation of n-type dilute magnetic semiconductor property observed in amorphous AlNO alloy thin film incorporated with dilute nitrogen at 300K**|Deena Nath et.al.|[2010.08361v1](http://arxiv.org/abs/2010.08361v1)|null|
+|**2020-07-03**|**Light-controlled room temperature ferromagnetism in vanadium-doped tungsten diselenide semiconducting monolayers**|Valery Ortiz Jimenez et.al.|[2007.01505v1](http://arxiv.org/abs/2007.01505v1)|null|
+|**2020-03-26**|**Energy storage in magnetic textures driven by vorticity flow**|Dalton Jones et.al.|[2003.12121v1](http://arxiv.org/abs/2003.12121v1)|null|
+|**2018-12-05**|**Pure voltage controlled magnetic nano-oscillator**|Qianchang Wang et.al.|[1812.02264v1](http://arxiv.org/abs/1812.02264v1)|null|
+|**2019-05-27**|**Rectification in Spin-Orbit Materials Using Low Energy Barrier Magnets**|Shehrin Sayed et.al.|[1812.00286v2](http://arxiv.org/abs/1812.00286v2)|null|
+|**2018-08-17**|**Tunnel magnetoresistance angular and bias dependence enabling tuneable wireless communication**|Ewa Kowalska et.al.|[1808.10812v1](http://arxiv.org/abs/1808.10812v1)|null|
+|**2018-03-31**|**Spintronic nano-scale harvester of broadband microwave energy**|Bin Fang et.al.|[1801.00445v3](http://arxiv.org/abs/1801.00445v3)|null|
+|**2018-03-31**|**Pure phase BiFeO$_3$ thin films sputtered over Si: A new route towards high magnetization**|G. A. Gomez-Iriarte et.al.|[1711.05873v3](http://arxiv.org/abs/1711.05873v3)|null|
+|**2018-02-05**|**Quantum control of topological defects in magnetic systems**|So Takei et.al.|[1706.01526v2](http://arxiv.org/abs/1706.01526v2)|null|
+|**2017-04-06**|**Giant spin splitting and $0 - π$ Josephson transitions from the Edelstein effect in quantum spin-Hall insulators**|G. Tkachov et.al.|[1703.05972v2](http://arxiv.org/abs/1703.05972v2)|null|
+|**2017-01-14**|**Strong perpendicular magnetic anisotropy energy density at Fe alloy/HfO2 interfaces**|Yongxi Ou et.al.|[1701.03933v1](http://arxiv.org/abs/1701.03933v1)|null|
+|**2016-10-27**|**Spin transfer driven resonant expulsion of a magnetic vortex core for efficient rf detector**|Samh Menshawy et.al.|[1610.08660v1](http://arxiv.org/abs/1610.08660v1)|null|
+|**2016-08-12**|**Coherent microwave generation by spintronic feedback oscillator**|Dinesh Kumar et.al.|[1608.03708v1](http://arxiv.org/abs/1608.03708v1)|null|
+|**2016-07-16**|**Measurement of spin pumping voltage separated from extrinsic microwave effects**|Ryo Iguchi et.al.|[1607.04716v1](http://arxiv.org/abs/1607.04716v1)|null|
+|**2015-09-18**|**Self-injection locking of a vortex spin torque oscillator by delayed feedback**|S. Tsunegi et.al.|[1509.05583v1](http://arxiv.org/abs/1509.05583v1)|null|
+|**2015-07-08**|**Phase-sensitive imaging of ferromagnetic resonance using ultrafast heat pulses**|Feng Guo et.al.|[1507.02303v1](http://arxiv.org/abs/1507.02303v1)|null|
+|**2014-10-24**|**Non-linear spin-wave excitation at low bias fields**|Hans G. Bauer et.al.|[1410.6693v1](http://arxiv.org/abs/1410.6693v1)|null|
+|**2015-05-18**|**Time Reversal Invariant Topologically Insulating Circuits**|Ningyuan Jia et.al.|[1309.0878v2](http://arxiv.org/abs/1309.0878v2)|null|
+|**2012-08-09**|**Disorder-free sputtering method on graphene**|Xue Peng Qiu et.al.|[1208.1835v1](http://arxiv.org/abs/1208.1835v1)|null|
+|**2012-05-21**|**Manipulating dipolar and spin-exchange interactions in spin-1 Bose-Einstein condensates**|Bo-Yuan Ning et.al.|[1201.1779v3](http://arxiv.org/abs/1201.1779v3)|null|
 
 <p align=right>(<a href=#Updated-on-20250408>back to top</a>)</p>
 
