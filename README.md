@@ -1,4 +1,4 @@
-## Updated on 2025.04.10
+## Updated on 2025.04.11
 
 <details>
   <summary>Table of Contents</summary>
@@ -15,7 +15,7 @@
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2025-03-25**|**A Physics-Based Circuit Model for Magnetic Tunnel Junctions**|Steven Louis et.al.|[2503.20813v1](http://arxiv.org/abs/2503.20813v1)|null|
+|**2025-04-09**|**A Physics-Based Circuit Model for Magnetic Tunnel Junctions**|Steven Louis et.al.|[2503.20813v2](http://arxiv.org/abs/2503.20813v2)|null|
 |**2025-03-13**|**2D Spintronics for Neuromorphic Computing with Scalability and Energy Efficiency**|Douglas Z. Plummer et.al.|[2503.17376v1](http://arxiv.org/abs/2503.17376v1)|null|
 |**2025-01-31**|**Novel Magnetic Materials for Spintronic Device Technology**|A. Sud et.al.|[2501.19087v1](http://arxiv.org/abs/2501.19087v1)|null|
 |**2025-01-22**|**Enhanced Field-Free Perpendicular Magnetization Switching via spin splitting torque in Altermagnetic RuO2-based Heterostructures**|Badsha Sekh et.al.|[2501.12593v1](http://arxiv.org/abs/2501.12593v1)|null|
@@ -116,13 +116,13 @@
 |**2020-10-23**|**Recent Progress on Electrical Excitation and Manipulation of Spin-Waves in Spin Hall Nano-Oscillators**|Liyuan Li et.al.|[2006.09737v2](http://arxiv.org/abs/2006.09737v2)|null|
 |**2020-06-03**|**Giant voltage control of spin Hall nano-oscillator damping**|Himanshu Fulara et.al.|[2006.02151v1](http://arxiv.org/abs/2006.02151v1)|null|
 
-<p align=right>(<a href=#Updated-on-20250410>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250411>back to top</a>)</p>
 
 ## Spintronics - Circuit
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
-|**2025-03-25**|**A Physics-Based Circuit Model for Magnetic Tunnel Junctions**|Steven Louis et.al.|[2503.20813v1](http://arxiv.org/abs/2503.20813v1)|null|
+|**2025-04-09**|**A Physics-Based Circuit Model for Magnetic Tunnel Junctions**|Steven Louis et.al.|[2503.20813v2](http://arxiv.org/abs/2503.20813v2)|null|
 |**2025-03-13**|**Current-linear emergent induction of pinned skyrmion textures in an oxide bilayer**|Ludwig Scheuchenpflug et.al.|[2503.10600v1](http://arxiv.org/abs/2503.10600v1)|null|
 |**2025-01-22**|**Enhanced Field-Free Perpendicular Magnetization Switching via spin splitting torque in Altermagnetic RuO2-based Heterostructures**|Badsha Sekh et.al.|[2501.12593v1](http://arxiv.org/abs/2501.12593v1)|null|
 |**2025-03-21**|**Hybrid Opto-Electrical Excitation of Spin-Transfer Torque Nano-Oscillators for Advanced Computing**|Felix Oberbauer et.al.|[2501.00813v3](http://arxiv.org/abs/2501.00813v3)|null|
@@ -223,7 +223,7 @@
 |**2020-08-23**|**Picosecond Spin Orbit Torque Switching**|Kaushalya Jhuria et.al.|[1912.01377v4](http://arxiv.org/abs/1912.01377v4)|null|
 |**2019-12-03**|**Spin-Orbit-Torque-based Devices, Circuits and Architectures**|Farshad Moradi et.al.|[1912.01347v1](http://arxiv.org/abs/1912.01347v1)|null|
 
-<p align=right>(<a href=#Updated-on-20250410>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250411>back to top</a>)</p>
 
 ## Neuromorphics - Online Learning
 
@@ -278,7 +278,7 @@
 |**2017-07-30**|**An Online Learning Algorithm for Neuromorphic Hardware Implementation**|Chetan Singh Thakur et.al.|[1505.02495v2](http://arxiv.org/abs/1505.02495v2)|null|
 |**2013-04-26**|**Synthesis of neural networks for spatio-temporal spike pattern recognition and processing**|J. Tapson et.al.|[1304.7118v1](http://arxiv.org/abs/1304.7118v1)|null|
 
-<p align=right>(<a href=#Updated-on-20250410>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250411>back to top</a>)</p>
 
 ## Spintronics - RF
 
@@ -322,7 +322,7 @@
 |**2012-08-09**|**Disorder-free sputtering method on graphene**|Xue Peng Qiu et.al.|[1208.1835v1](http://arxiv.org/abs/1208.1835v1)|null|
 |**2012-05-21**|**Manipulating dipolar and spin-exchange interactions in spin-1 Bose-Einstein condensates**|Bo-Yuan Ning et.al.|[1201.1779v3](http://arxiv.org/abs/1201.1779v3)|null|
 
-<p align=right>(<a href=#Updated-on-20250410>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250411>back to top</a>)</p>
 
 ## Neuromorphics - FPGA
 
@@ -389,5 +389,5 @@
 |**2013-04-02**|**Event management for large scale event-driven digital hardware spiking neural networks**|Louis-Charles Caron et.al.|[1304.0640v1](http://arxiv.org/abs/1304.0640v1)|null|
 |**2012-12-16**|**Biologically Inspired Spiking Neurons : Piecewise Linear Models and Digital Implementation**|Hamid Soleimani et.al.|[1212.3765v1](http://arxiv.org/abs/1212.3765v1)|null|
 
-<p align=right>(<a href=#Updated-on-20250410>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250411>back to top</a>)</p>
 
