@@ -363,7 +363,7 @@
     "1304.0640": "|**2013-04-02**|**Event management for large scale event-driven digital hardware spiking neural networks**|Louis-Charles Caron et.al.|[1304.0640v1](http://arxiv.org/abs/1304.0640v1)|null|\n",
     "1212.3765": "|**2012-12-16**|**Biologically Inspired Spiking Neurons : Piecewise Linear Models and Digital Implementation**|Hamid Soleimani et.al.|[1212.3765v1](http://arxiv.org/abs/1212.3765v1)|null|\n",
     "2504.08534": "|**2025-06-11**|**An FPGA Compiler for On-the-Fly Adaptive CNN Deployment and Reconfiguration**|Alaa Mazouz et.al.|[2504.08534v3](http://arxiv.org/abs/2504.08534v3)|null|\n",
-    "2506.11760": "|**2025-06-13**|**FeNN: A RISC-V vector processor for Spiking Neural Network acceleration**|Zainab Aizaz et.al.|[2506.11760v1](http://arxiv.org/abs/2506.11760v1)|null|\n",
+    "2506.11760": "|**2025-06-13**|**FeNN: A RISC-V vector processor for Spiking Neural Network acceleration**|Zainab Aizaz et.al.|[2506.11760v1](http://arxiv.org/abs/2506.11760v1)|**[link](https://github.com/neworderofjamie/riscv_ise)**|\n",
     "2506.11286": "|**2025-06-12**|**Mapping and Scheduling Spiking Neural Networks On Segmented Ladder Bus Architectures**|Phu Khanh Huynh et.al.|[2506.11286v1](http://arxiv.org/abs/2506.11286v1)|null|\n",
     "2506.13268": "|**2025-06-16**|**Energy-Efficient Digital Design: A Comparative Study of Event-Driven and Clock-Driven Spiking Neurons**|Filippo Marostica et.al.|[2506.13268v1](http://arxiv.org/abs/2506.13268v1)|null|\n",
     "2506.14138": "|**2025-06-17**|**NeuroCoreX: An Open-Source FPGA-Based Spiking Neural Network Emulator with On-Chip Learning**|Ashish Gautam et.al.|[2506.14138v1](http://arxiv.org/abs/2506.14138v1)|null|\n"
