@@ -1,10 +1,11 @@
-## Updated on 2025.06.24
+## Updated on 2025.06.25
 
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href=#Neuromorphics---Spintronics>Neuromorphics - Spintronics</a></li>
     <li><a href=#Spintronics---Circuit>Spintronics - Circuit</a></li>
+    <li><a href=#Neuromorphics---Spin-diode>Neuromorphics - Spin diode</a></li>
     <li><a href=#Neuromorphics---Online-Learning>Neuromorphics - Online Learning</a></li>
     <li><a href=#Spintronics---RF>Spintronics - RF</a></li>
     <li><a href=#Neuromorphics---FPGA>Neuromorphics - FPGA</a></li>
@@ -120,7 +121,7 @@
 |**2020-10-23**|**Recent Progress on Electrical Excitation and Manipulation of Spin-Waves in Spin Hall Nano-Oscillators**|Liyuan Li et.al.|[2006.09737v2](http://arxiv.org/abs/2006.09737v2)|null|
 |**2020-06-03**|**Giant voltage control of spin Hall nano-oscillator damping**|Himanshu Fulara et.al.|[2006.02151v1](http://arxiv.org/abs/2006.02151v1)|null|
 
-<p align=right>(<a href=#Updated-on-20250624>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250625>back to top</a>)</p>
 
 ## Spintronics - Circuit
 
@@ -231,14 +232,24 @@
 |**2020-08-23**|**Picosecond Spin Orbit Torque Switching**|Kaushalya Jhuria et.al.|[1912.01377v4](http://arxiv.org/abs/1912.01377v4)|null|
 |**2019-12-03**|**Spin-Orbit-Torque-based Devices, Circuits and Architectures**|Farshad Moradi et.al.|[1912.01347v1](http://arxiv.org/abs/1912.01347v1)|null|
 
-<p align=right>(<a href=#Updated-on-20250624>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250625>back to top</a>)</p>
+
+## Neuromorphics - Spin diode
+
+|Publish Date|Title|Authors|PDF|Code|
+|---|---|---|---|---|
+|**2023-11-20**|**Electrical control of magnetism by electric field and current-induced torques**|Albert Fert et.al.|[2311.11724v1](http://arxiv.org/abs/2311.11724v1)|null|
+|**2023-01-27**|**A semi-analytical model to simulate the spin-diode effect and accelerate its use in neuromorphic computing**|Chloé Chopin et.al.|[2301.11980v1](http://arxiv.org/abs/2301.11980v1)|null|
+|**2023-01-10**|**Compensation of anisotropy in spin-Hall devices for neuromorphic applications**|Pankaj Sethi et.al.|[2301.03794v1](http://arxiv.org/abs/2301.03794v1)|null|
+
+<p align=right>(<a href=#Updated-on-20250625>back to top</a>)</p>
 
 ## Neuromorphics - Online Learning
 
 |Publish Date|Title|Authors|PDF|Code|
 |---|---|---|---|---|
 |**2025-06-23**|**Embedded FPGA Acceleration of Brain-Like Neural Networks: Online Learning to Scalable Inference**|Muhammad Ihsan Al Hafiz et.al.|[2506.18530v1](http://arxiv.org/abs/2506.18530v1)|null|
-|**2025-06-17**|**A Scalable Hybrid Training Approach for Recurrent Spiking Neural Networks**|Maximilian Baronig et.al.|[2506.14464v1](http://arxiv.org/abs/2506.14464v1)|null|
+|**2025-06-17**|**A Scalable Hybrid Training Approach for Recurrent Spiking Neural Networks**|Maximilian Baronig et.al.|[2506.14464v1](http://arxiv.org/abs/2506.14464v1)|**[link](https://github.com/imltugraz/hypr)**|
 |**2024-11-01**|**Reply to: Limitations in odour recognition and generalisation in a neuromorphic olfactory circuit**|Roy Moyal et.al.|[2411.10456v1](http://arxiv.org/abs/2411.10456v1)|null|
 |**2024-09-17**|**Bio-Inspired Mamba: Temporal Locality and Bioplausible Learning in Selective State Space Models**|Jiahao Qin et.al.|[2409.11263v1](http://arxiv.org/abs/2409.11263v1)|null|
 |**2024-08-28**|**Emulating Brain-like Rapid Learning in Neuromorphic Edge Computing**|Kenneth Stewart et.al.|[2408.15800v1](http://arxiv.org/abs/2408.15800v1)|**[link](https://github.com/nmi-lab/snn_maml)**|
@@ -288,7 +299,7 @@
 |**2017-07-30**|**An Online Learning Algorithm for Neuromorphic Hardware Implementation**|Chetan Singh Thakur et.al.|[1505.02495v2](http://arxiv.org/abs/1505.02495v2)|null|
 |**2013-04-26**|**Synthesis of neural networks for spatio-temporal spike pattern recognition and processing**|J. Tapson et.al.|[1304.7118v1](http://arxiv.org/abs/1304.7118v1)|null|
 
-<p align=right>(<a href=#Updated-on-20250624>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250625>back to top</a>)</p>
 
 ## Spintronics - RF
 
@@ -332,7 +343,7 @@
 |**2012-08-09**|**Disorder-free sputtering method on graphene**|Xue Peng Qiu et.al.|[1208.1835v1](http://arxiv.org/abs/1208.1835v1)|null|
 |**2012-05-21**|**Manipulating dipolar and spin-exchange interactions in spin-1 Bose-Einstein condensates**|Bo-Yuan Ning et.al.|[1201.1779v3](http://arxiv.org/abs/1201.1779v3)|null|
 
-<p align=right>(<a href=#Updated-on-20250624>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250625>back to top</a>)</p>
 
 ## Neuromorphics - FPGA
 
@@ -405,5 +416,5 @@
 |**2013-04-02**|**Event management for large scale event-driven digital hardware spiking neural networks**|Louis-Charles Caron et.al.|[1304.0640v1](http://arxiv.org/abs/1304.0640v1)|null|
 |**2012-12-16**|**Biologically Inspired Spiking Neurons : Piecewise Linear Models and Digital Implementation**|Hamid Soleimani et.al.|[1212.3765v1](http://arxiv.org/abs/1212.3765v1)|null|
 
-<p align=right>(<a href=#Updated-on-20250624>back to top</a>)</p>
+<p align=right>(<a href=#Updated-on-20250625>back to top</a>)</p>
 

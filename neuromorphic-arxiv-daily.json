@@ -211,6 +211,11 @@
     "2505.05794": "|**2025-05-09**|**What Is Next for LLMs? Next-Generation AI Computing Hardware Using Photonic Chips**|Renjie Li et.al.|[2505.05794v1](http://arxiv.org/abs/2505.05794v1)|null|\n",
     "2505.11767": "|**2025-05-17**|**Semiconductor quantum well magnetic memory using confinement from proximity exchange fields for high magnetoresistances in a field-effect transistor**|William S. Rogers et.al.|[2505.11767v1](http://arxiv.org/abs/2505.11767v1)|null|\n"
   },
+  "Neuromorphics - Spin diode": {
+    "2311.11724": "|**2023-11-20**|**Electrical control of magnetism by electric field and current-induced torques**|Albert Fert et.al.|[2311.11724v1](http://arxiv.org/abs/2311.11724v1)|null|\n",
+    "2301.11980": "|**2023-01-27**|**A semi-analytical model to simulate the spin-diode effect and accelerate its use in neuromorphic computing**|Chlo\u00e9 Chopin et.al.|[2301.11980v1](http://arxiv.org/abs/2301.11980v1)|null|\n",
+    "2301.03794": "|**2023-01-10**|**Compensation of anisotropy in spin-Hall devices for neuromorphic applications**|Pankaj Sethi et.al.|[2301.03794v1](http://arxiv.org/abs/2301.03794v1)|null|\n"
+  },
   "Neuromorphics - Online Learning": {
     "2411.10456": "|**2024-11-01**|**Reply to: Limitations in odour recognition and generalisation in a neuromorphic olfactory circuit**|Roy Moyal et.al.|[2411.10456v1](http://arxiv.org/abs/2411.10456v1)|null|\n",
     "2409.11263": "|**2024-09-17**|**Bio-Inspired Mamba: Temporal Locality and Bioplausible Learning in Selective State Space Models**|Jiahao Qin et.al.|[2409.11263v1](http://arxiv.org/abs/2409.11263v1)|null|\n",
@@ -260,7 +265,7 @@
     "1704.05877": "|**2019-01-23**|**Fast and Accurate Sparse Coding of Visual Stimuli with a Simple, Ultra-Low-Energy Spiking Architecture**|Walt Woods et.al.|[1704.05877v3](http://arxiv.org/abs/1704.05877v3)|**[link](https://github.com/wwoods/tlab_sslca)**|\n",
     "1505.02495": "|**2017-07-30**|**An Online Learning Algorithm for Neuromorphic Hardware Implementation**|Chetan Singh Thakur et.al.|[1505.02495v2](http://arxiv.org/abs/1505.02495v2)|null|\n",
     "1304.7118": "|**2013-04-26**|**Synthesis of neural networks for spatio-temporal spike pattern recognition and processing**|J. Tapson et.al.|[1304.7118v1](http://arxiv.org/abs/1304.7118v1)|null|\n",
-    "2506.14464": "|**2025-06-17**|**A Scalable Hybrid Training Approach for Recurrent Spiking Neural Networks**|Maximilian Baronig et.al.|[2506.14464v1](http://arxiv.org/abs/2506.14464v1)|null|\n",
+    "2506.14464": "|**2025-06-17**|**A Scalable Hybrid Training Approach for Recurrent Spiking Neural Networks**|Maximilian Baronig et.al.|[2506.14464v1](http://arxiv.org/abs/2506.14464v1)|**[link](https://github.com/imltugraz/hypr)**|\n",
     "2506.18530": "|**2025-06-23**|**Embedded FPGA Acceleration of Brain-Like Neural Networks: Online Learning to Scalable Inference**|Muhammad Ihsan Al Hafiz et.al.|[2506.18530v1](http://arxiv.org/abs/2506.18530v1)|null|\n"
   },
   "Spintronics - RF": {
